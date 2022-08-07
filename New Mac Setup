@@ -1,0 +1,27 @@
+curl https://raw.githubusercontent.com/acodega/mosyle/main/installInstallomator.sh | sh
+
+sudo scutil --set ComputerName ac-mini / HostName ac-mini / LocalHostName ac-mini
+dockutil
+googlechromepkg
+googledrive
+visualstudiocode
+githubdesktop
+slack
+mist
+discord
+imazingprofileeditor
+zoomclient
+notion
+
+/usr/local/bin/dockutil --remove all
+
+Other
+Rectangle Pro
+Keeping You Awake
+Camera Hub
+SF Symbols 3.3
+Finder preferences
+Terminal preferences
+Screen Saver, energy, and hot corner preference
+Security & Privacy/PPPC preference
+Smart quotes and TextEdit preference
