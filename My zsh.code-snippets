@@ -16,7 +16,7 @@
 	"Insert runAsCurrentUser variables and function": {
 		"prefix": "fnrunAsCurrentUser",
 		"body": [
-			"currentUser=$( echo \"show State:/Users/ConsoleUser\" | scutil | awk '/Name :/ { print $$3 }' )",
+			"currentUser=$( echo \"show State:/Users/ConsoleUser\" | scutil | awk '/Name :/ { print \\\$$3 }' )",
 			"",
 			"if [[ -z \"$$currentUser\" || \"$$currentUser\" == \"loginwindow\" ]]; then",
 			"    echo \"No user logged in, cannot proceed\"",
